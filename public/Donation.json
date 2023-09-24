@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "picture": "https://example.com/pic1.jpg",
+        "title": "Healthy Living Guide",
+        "category": "Health",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A comprehensive guide to living a healthy and balanced life.",
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "picture": "https://example.com/pic2.jpg",
+        "title": "Educational Puzzle Set",
+        "category": "Education",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A set of educational puzzles to enhance learning and creativity.",
+        "price": 14.95
+    },
+    {
+        "id": 3,
+        "picture": "https://example.com/pic3.jpg",
+        "title": "Stylish Red T-shirt",
+        "category": "Clothing",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A fashionable red t-shirt for your wardrobe.",
+        "price": 29.99
+    },
+    {
+        "id": 4,
+        "picture": "https://example.com/pic4.jpg",
+        "title": "Organic Food Basket",
+        "category": "Food",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A selection of organic and healthy foods in a gift basket.",
+        "price": 49.99
+    },
+    {
+        "id": 5,
+        "picture": "https://example.com/pic5.jpg",
+        "title": "Yoga Mat and Accessories",
+        "category": "Health",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A complete yoga kit including a mat and essential accessories.",
+        "price": 39.95
+    },
+    {
+        "id": 6,
+        "picture": "https://example.com/pic6.jpg",
+        "title": "Mathematics Workbook",
+        "category": "Education",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A workbook to improve math skills for students of all ages.",
+        "price": 9.99
+    },
+    {
+        "id": 7,
+        "picture": "https://example.com/pic7.jpg",
+        "title": "Blue Jeans",
+        "category": "Clothing",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "Classic blue jeans for a stylish look.",
+        "price": 34.99
+    },
+    {
+        "id": 8,
+        "picture": "https://example.com/pic8.jpg",
+        "title": "Gourmet Chocolate Assortment",
+        "category": "Food",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A luxurious assortment of gourmet chocolates.",
+        "price": 29.95
+    },
+    {
+        "id": 9,
+        "picture": "https://example.com/pic9.jpg",
+        "title": "Fitness Tracker",
+        "category": "Health",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A smart fitness tracker to monitor your health and activity.",
+        "price": 49.99
+    },
+    {
+        "id": 10,
+        "picture": "https://example.com/pic10.jpg",
+        "title": "Science Experiment Kit",
+        "category": "Education",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A kit for conducting fun and educational science experiments.",
+        "price": 19.95
+    },
+    {
+        "id": 11,
+        "picture": "https://example.com/pic11.jpg",
+        "title": "Black Leather Jacket",
+        "category": "Clothing",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A stylish black leather jacket for a trendy look.",
+        "price": 79.99
+    },
+    {
+        "id": 12,
+        "picture": "https://example.com/pic12.jpg",
+        "title": "Fresh Fruit Basket",
+        "category": "Food",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A basket filled with fresh and delicious fruits.",
+        "price": 24.99
+    },
+    {
+        "id": 13,
+        "picture": "https://example.com/pic13.jpg",
+        "title": "Meditation Guidebook",
+        "category": "Health",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A guidebook for practicing meditation and mindfulness.",
+        "price": 12.99
+    },
+    {
+        "id": 14,
+        "picture": "https://example.com/pic14.jpg",
+        "title": "History Encyclopedia",
+        "category": "Education",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "An encyclopedia covering the fascinating history of the world.",
+        "price": 29.95
+    },
+    {
+        "id": 15,
+        "picture": "https://example.com/pic15.jpg",
+        "title": "Striped Summer Dress",
+        "category": "Clothing",
+        "category_bg": "red",
+        "card_bg": "green",
+        "text_button_bg": "yellow",
+        "description": "A beautiful striped dress perfect for the summer season.",
+        "price": 39.99
+    }
+]
