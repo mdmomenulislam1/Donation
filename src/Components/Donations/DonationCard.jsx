@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const DonationCard = ({donation}) => {
 
@@ -6,8 +7,9 @@ const DonationCard = ({donation}) => {
 
     return (
         <div>
-           
-            <div style={{backgroundColor:card_bg}} className="rounded-md w-auto">
+           <Link to={`/donations/${id}`}
+           >
+            <div style={{backgroundColor:card_bg}} className="rounded-md w-auto h-[350px]">
                 <div className="">
                     <img
                         src={picture}
@@ -15,13 +17,11 @@ const DonationCard = ({donation}) => {
                         layout="fill"
                         className="rounded-md"
                     />
-                </div>
-                <div className="p-6">
-                    <h5 style={{backgroundColor:category_bg, color:text_button_bg}} className="mb-2 block text-xl font-bold w-[100px] p-3 text-center rounded-lg opacity-60">
+                </div> <div className="p-6">
+                    <h5 style={{backgroundColor:category_bg, color:text_button_bg}} className="mb-2 font-bold w-[110px] p-3 text-center rounded-lg opacity-80">
                         {category}
                     </h5>
-                    <Link to={`/donation/${id}`}>
-                    </Link>
+                    
                     <p style={{color:text_button_bg}} className="block text-2xl font-semibold">
                         {title}
                     </p>
@@ -29,7 +29,7 @@ const DonationCard = ({donation}) => {
                 
                 </div>
             </div>
-            
+            </Link>
         </div>
     );
 };
