@@ -43,7 +43,7 @@ const Donation = () => {
 
     return (
         <div className="lg:max-w-[1300px] mx-auto px-10 lg:px-0">
-
+            <h1 className="text-4xl font-bold text-center my-5"> Donated Items</h1>
             {
             Donated.length > 0 && 
             <div className="flex flex-col lg:flex-row justify-between my-5 ">

@@ -14,7 +14,6 @@ const Statistics = ({}) => {
         ["Type", "Value"],
         ["Donated", donatedLength],
         ["Not Donated", 15 - donatedLength]
-        
     ];
 
 
@@ -22,14 +21,14 @@ const Statistics = ({}) => {
 
     return (
         <div className="max-w-[1300px] mx-auto my-5 text-4xl font-semibold">
-            <h1 className="text-4xl font-bold text-center"> Donation Statistics</h1>
+            <h1 className="text-4xl font-bold text-center my-5"> Donation Statistics</h1>
 
             <Chart
+            className="mx-auto flex flex-col"
                 chartType="PieChart"
                 data={data}
-                width={"100%"}
+                width={"95%"}
                 height={"400px"}
-                className=""
             />
         </div>
     );

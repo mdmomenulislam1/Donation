@@ -4,6 +4,7 @@ import DonationCard from './DonationCard';
 const Donations = ({donations}) => {
 
     // console.log(donations);
+    // const 
 
 
     return (
@@ -15,6 +16,11 @@ const Donations = ({donations}) => {
                     donations?.map(donation=><DonationCard key={donation.id} donation={donation}></DonationCard>)
                 }
             </div>
+            {/* <div>
+            {
+                    donations?.map(donation=><DonationCard key={donation.category === 'Food'} donation={donation}></DonationCard>)
+                }
+            </div> */}
         </div>
     );
 };
