@@ -9,8 +9,8 @@ const Banner = () => {
                     <div className="text-center">
                         <h1 className="mb-5 text-5xl font-bold">I Grow By Helping People In Need</h1>
                         <div className="flex justify-center py-5">
-                            <input className="rounded " type="text" />
-                            <button className="btn bg-red-500 text-white font-bold hover:text-black hover:bg-white">Get Started</button>
+                            <input className="rounded text-center " type="text" placeholder="Category Name" />
+                            <button className="btn bg-red-500 text-white font-bold hover:text-black hover:bg-white">Search</button>
                         </div>
 
                     </div>
