@@ -39,12 +39,12 @@ const DonationDetailsCard = ({ donation }) => {
 
 
   return (
-    <div className="max-w-[1300px] mx-auto">
+    <div className="max-w-[1300px] mx-auto px-10 lg:px-0">
       <div>
         <div className="card w-full glass relative">
           <img src={picture} className="w-full rounded-lg" alt="car!" />
-          <div className="absolute bottom-0 w-full p-10 bg-[#00000099]">
-            <button onClick={handleAddToDonation} className="p-5 rounded-lg text-center text-2xl font-bold text-white" style={{ backgroundColor: text_button_bg }}>Donate ${price}</button>
+          <div className="absolute bottom-0 w-full p-4 bg-[#00000099]">
+            <button onClick={handleAddToDonation} className="ml-10 px-5 py-3 rounded-lg text-center text-2xl font-bold text-white" style={{ backgroundColor: text_button_bg }}>Donate ${price}</button>
           </div>
         </div>
         <div className="py-10">

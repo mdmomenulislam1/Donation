@@ -26,7 +26,7 @@ const Donation = () => {
 
             const total = DonatedItem.reduce((preDonation, currentDonation) => preDonation + currentDonation.price, 0)
 
-            setTotalDonation(total);
+            setTotalDonation(total.toFixed(2));
         }
         else {
             setEmpty('No data Available')
@@ -42,7 +42,7 @@ const Donation = () => {
     }
 
     return (
-        <div className="max-w-[1300px] mx-auto">
+        <div className="lg:max-w-[1300px] mx-auto px-10 lg:px-0">
 
             {
             Donated.length > 0 && 
