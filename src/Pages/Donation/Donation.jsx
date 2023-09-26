@@ -42,7 +42,7 @@ const Donation = () => {
     }
 
     return (
-        <div>
+        <div className="max-w-[1300px] mx-auto">
 
             {
             Donated.length > 0 && 

@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "picture": "https://burtonorthodontics.com/wp-content/uploads/2022/07/multiracial-group-of-young-people-standing-in-circ-2021-09-02-23-14-10-utc-400x267.jpg",
+        "picture": "https://i.ibb.co/VMNStc1/Health.png",
         "title": "Healthy Living Guide",
         "category": "Health",
         "category_bg": "#FFCC00",
@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "picture": "https://disruptr.deakin.edu.au/wp-content/uploads/2021/07/ben-white-83tkHLPgg2Q-unsplash-1-600x401.jpg",
+        "picture": "https://i.ibb.co/VJDLR3n/Education.png",
         "title": "Educational Puzzle Set",
         "category": "Education",
         "category_bg": "#2563eb",
@@ -23,18 +23,18 @@
     },
     {
         "id": 3,
-        "picture": "https://th.bing.com/th/id/OIP.zqPF7gHEs0VN62DKCvGixgHaE8?pid=ImgDet&rs=1",
+        "picture": "https://i.ibb.co/NYwXMgD/Clothing.png",
         "title": "Stylish Yellow T-shirt",
         "category": "Clothing",
         "category_bg": "#84cc16",
         "card_bg": "#bef264",
-        "text_button_bg": "#1a2e05",
+        "text_button_bg": "green",
         "description": "Upgrade your wardrobe with our Stylish Red T-shirt. Made from high-quality, comfortable fabric, this red t-shirt is perfect for any casual occasion. Its vibrant red color adds a pop of style to your outfit. Whether you're going for a relaxed day out or want to make a fashion statement, this t-shirt has got you covered. It's available in various sizes to suit your preferences. Get this trendy addition to your wardrobe for just $29.99 and elevate your style game.",
         "price": 29.99
     },
     {
         "id": 4,
-        "picture": "https://th.bing.com/th/id/OIP.JzKuMEEfoKK3Lza-8M4YUgHaE8?pid=ImgDet&rs=1",
+        "picture": "https://i.ibb.co/p2yRV2T/Food.png",
         "title": "Organic Food Basket",
         "category": "Food",
         "category_bg": "#e11d48",
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "picture": "https://burtonorthodontics.com/wp-content/uploads/2022/07/multiracial-group-of-young-people-standing-in-circ-2021-09-02-23-14-10-utc-400x267.jpg",
+        "picture": "https://i.ibb.co/VMNStc1/Health.png",
         "title": "Yoga Mat and Accessories",
         "category": "Health",
         "category_bg": "#FFCC00",
@@ -56,7 +56,7 @@
     },
     {
         "id": 6,
-        "picture": "https://disruptr.deakin.edu.au/wp-content/uploads/2021/07/ben-white-83tkHLPgg2Q-unsplash-1-600x401.jpg",
+        "picture": "https://i.ibb.co/VJDLR3n/Education.png",
         "title": "Mathematics Workbook",
         "category": "Education",
         "category_bg": "#2563eb",
@@ -67,18 +67,18 @@
     },
     {
         "id": 7,
-        "picture": "https://th.bing.com/th/id/OIP.zqPF7gHEs0VN62DKCvGixgHaE8?pid=ImgDet&rs=1",
+        "picture": "https://i.ibb.co/NYwXMgD/Clothing.png",
         "title": "Blue Jeans",
         "category": "Clothing",
         "category_bg": "#84cc16",
         "card_bg": "#bef264",
-        "text_button_bg": "#1a2e05",
+        "text_button_bg": "green",
         "description": "Every wardrobe deserves a classic pair of Blue Jeans. These jeans are made from high-quality denim that's both comfortable and durable. With a timeless blue color and a stylish fit, they're perfect for any casual occasion. Whether you're going for a laid-back look or dressing up for a night out, these jeans are a versatile addition to your clothing collection. Available in various sizes, they offer a great fit for everyone. Upgrade your style for just $34.99.",
         "price": 34.99
     },
     {
         "id": 8,
-        "picture": "https://th.bing.com/th/id/OIP.JzKuMEEfoKK3Lza-8M4YUgHaE8?pid=ImgDet&rs=1",
+        "picture": "https://i.ibb.co/p2yRV2T/Food.png",
         "title": "Gourmet Chocolate Assortment",
         "category": "Food",
         "category_bg": "#e11d48",
@@ -89,7 +89,7 @@
     },
     {
         "id": 9,
-        "picture": "https://burtonorthodontics.com/wp-content/uploads/2022/07/multiracial-group-of-young-people-standing-in-circ-2021-09-02-23-14-10-utc-400x267.jpg",
+        "picture": "https://i.ibb.co/VMNStc1/Health.png",
         "title": "Fitness Tracker",
         "category": "Health",
         "category_bg": "#FFCC00",
@@ -100,7 +100,7 @@
     },
     {
         "id": 10,
-        "picture": "https://disruptr.deakin.edu.au/wp-content/uploads/2021/07/ben-white-83tkHLPgg2Q-unsplash-1-600x401.jpg",
+        "picture": "https://i.ibb.co/VJDLR3n/Education.png",
         "title": "Science Experiment Kit",
         "category": "Education",
         "category_bg": "#2563eb",
@@ -111,18 +111,18 @@
     },
     {
         "id": 11,
-        "picture": "https://th.bing.com/th/id/OIP.zqPF7gHEs0VN62DKCvGixgHaE8?pid=ImgDet&rs=1",
+        "picture": "https://i.ibb.co/NYwXMgD/Clothing.png",
         "title": "Black Leather Jacket",
         "category": "Clothing",
         "category_bg": "#84cc16",
         "card_bg": "#bef264",
-        "text_button_bg": "#1a2e05",
+        "text_button_bg": "green",
         "description": "Make a bold fashion statement with our Black Leather Jacket. Crafted from premium leather, this jacket exudes style and sophistication. Its timeless black color complements a wide range of outfits, from casual to formal. Whether you're heading to a special event or a night out, this jacket is sure to turn heads. Available in various sizes for the perfect fit, it's a must-have addition to your wardrobe. Elevate your style for just $79.99.",
         "price": 79.99
     },
     {
         "id": 12,
-        "picture": "https://th.bing.com/th/id/OIP.JzKuMEEfoKK3Lza-8M4YUgHaE8?pid=ImgDet&rs=1",
+        "picture": "https://i.ibb.co/p2yRV2T/Food.png",
         "title": "Fresh Fruit Basket",
         "category": "Food",
         "category_bg": "#e11d48",
@@ -133,7 +133,7 @@
     },
     {
         "id": 13,
-        "picture": "https://burtonorthodontics.com/wp-content/uploads/2022/07/multiracial-group-of-young-people-standing-in-circ-2021-09-02-23-14-10-utc-400x267.jpg",
+        "picture": "https://i.ibb.co/VMNStc1/Health.png",
         "title": "Meditation Guidebook",
         "category": "Health",
         "category_bg": "#FFCC00",
@@ -144,7 +144,7 @@
     },
     {
         "id": 14,
-        "picture": "https://disruptr.deakin.edu.au/wp-content/uploads/2021/07/ben-white-83tkHLPgg2Q-unsplash-1-600x401.jpg",
+        "picture": "https://i.ibb.co/VJDLR3n/Education.png",
         "title": "History Encyclopedia",
         "category": "Education",
         "category_bg": "#2563eb",
@@ -155,12 +155,12 @@
     },
     {
         "id": 15,
-        "picture": "https://th.bing.com/th/id/OIP.zqPF7gHEs0VN62DKCvGixgHaE8?pid=ImgDet&rs=1",
+        "picture": "https://i.ibb.co/NYwXMgD/Clothing.png",
         "title": "Striped Summer Dress",
         "category": "Clothing",
         "category_bg": "#84cc16",
         "card_bg": "#bef264",
-        "text_button_bg": "#1a2e05",
+        "text_button_bg": "green",
         "description": "Step into summer with style in our Striped Summer Dress. This elegant dress features a timeless striped design and a flattering fit that's perfect for warm weather. Whether you're attending a beach party, a summer wedding, or a casual outing, this dress will make you feel chic and comfortable. It's available in various sizes to suit your preferences. Embrace the summer vibe for just $39.99 and make a fashion statement.",
         "price": 39.99
     }

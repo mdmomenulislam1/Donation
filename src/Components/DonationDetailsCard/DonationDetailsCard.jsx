@@ -39,7 +39,7 @@ const DonationDetailsCard = ({ donation }) => {
 
 
   return (
-    <div>
+    <div className="max-w-[1300px] mx-auto">
       <div>
         <div className="card w-full glass relative">
           <img src={picture} className="w-full rounded-lg" alt="car!" />

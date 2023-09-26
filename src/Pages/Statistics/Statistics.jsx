@@ -19,7 +19,7 @@ const Statistics = () => {
 })
 
     return (
-        <div>
+        <div className="max-w-[1300px] mx-auto">
             <h1>Statistics</h1>
 
             <PieChart>
