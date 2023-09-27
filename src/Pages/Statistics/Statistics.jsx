@@ -1,19 +1,24 @@
 import React from "react";
 import { Chart } from "react-google-charts";
+import { useLoaderData } from "react-router-dom";
 
 const Statistics = ({}) => {
+    
+
 
     const DonatedItem = JSON.parse(localStorage.getItem('Donated'));
-    const donatedLength = DonatedItem.length;
+    const donatedItem = DonatedItem.length;
     
-    fetch("Donation.json")
-        .then((res) => res.json())
-        .then((data2) => {console.log(data2.length)});
 
-    const data = [
+    const donationData = useLoaderData();
+    const totalDonationItem = donationData.length;
+
+    
+
+    const numberDonatedItem = [
         ["Type", "Value"],
-        ["Donated", donatedLength],
-        ["Not Donated", 15 - donatedLength]
+        ["Donated", donatedItem],
+        ["Not Donated", totalDonationItem - donatedItem]
     ];
 
 
@@ -26,7 +31,7 @@ const Statistics = ({}) => {
             <Chart
             className="mx-auto flex flex-col"
                 chartType="PieChart"
-                data={data}
+                data={numberDonatedItem}
                 width={"95%"}
                 height={"400px"}
             />

@@ -43,12 +43,16 @@ const Donation = () => {
 
     return (
         <div className="lg:max-w-[1300px] mx-auto px-10 lg:px-0">
-            <h1 className="text-4xl font-bold text-center my-5"> Donated Items</h1>
+            
             {
             Donated.length > 0 && 
-            <div className="flex flex-col lg:flex-row justify-between my-5 ">
+            <div>
+                <h1 className="text-4xl font-bold text-center my-5"> Donated Items</h1>
+            
+            <div className="flex flex-col lg:flex-row justify-between my-5 gap-5">
                 <button onClick={handleRemove} className="hover:bg-black p-4 font-semibold rounded bg-purple-950 text-white">Delete All Donations </button>
-                <h1 className="text-4xl font-bold">Total Donation: ${totalDonation}</h1>
+                <h1 className="text-4xl font-bold text-center">Total Donation: ${totalDonation}</h1>
+            </div>
             </div>
             }
 

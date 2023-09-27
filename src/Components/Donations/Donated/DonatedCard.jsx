@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 const DonatedCard = ({donation}) => {
   const { id, picture, title, category, category_bg, card_bg, text_button_bg, price, description } = donation || {}
 
-
-  console.log(id);
   return (
     <div>
         <div style={{ backgroundColor: card_bg }} className="rounded-md h-[200px] flex">
