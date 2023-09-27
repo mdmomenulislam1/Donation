@@ -1,11 +1,13 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import Logo from '../Logo/Logo';
-
 const Navbar = () => {
     return (
         <div className="lg:max-w-[1300px] px-5 md:px-0 mx-auto flex flex-col md:flex-row gap-5 justify-between items-center py-8 shadow-sm" >
-            <Logo></Logo>
+    
+                <div>
+                    <img src="https://i.ibb.co/y8mxZR4/Logo.png"></img>
+                </div>
+        
 
             <nav>
                 <ul className="flex gap-6">
@@ -15,7 +17,7 @@ const Navbar = () => {
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-red-600 bg-slate-200 p-5 font-bold rounded-lg underline" : ""
                             }
-                            >
+                        >
                             Home
                         </NavLink>
                     </li>
@@ -25,7 +27,7 @@ const Navbar = () => {
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-red-600 bg-slate-200 p-5 font-bold rounded-lg underline" : ""
                             }
-                            >
+                        >
                             Donation
                         </NavLink>
                     </li>
@@ -35,7 +37,7 @@ const Navbar = () => {
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-red-600 bg-slate-200 p-5 font-bold rounded-lg underline" : ""
                             }
-                            >
+                        >
                             Statistics
                         </NavLink>
                     </li>

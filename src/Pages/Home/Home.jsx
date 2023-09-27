@@ -1,6 +1,4 @@
 import React, { useRef } from 'react';
-import Banner from '../../Components/Header/Banner/Banner';
-import Donations from '../../Components/Donations/Donations';
 import { useLoaderData } from 'react-router-dom';
 import DonationCard from '../../Components/Donations/DonationCard';
 
@@ -10,19 +8,10 @@ const Home = () => {
     const clothingData = donations.filter(item => item.category === 'Clothing')
     const educationData = donations.filter(item => item.category === 'Education')
     const healthData = donations.filter(item => item.category === 'Health')
-    // console.log(foodData, clothingData, educationData,healthData);
-
-
-    // const CategoryData = document.getElementById("category-data")
-    // const category = CategoryData.value;
-    // console.log(category);
-
-
 
     const inputRef = useRef();
-
     const handleClick = () => {
-        console.log(inputRef.current.value);
+        console.log(abr);
     };
 
     return (
@@ -41,8 +30,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <Banner></Banner> */}
-            {/* <Donations donations={donations}></Donations> */}
             <div className="py-10 lg:max-w-[1300px] mx-auto">
                 <h1 className="text-black text-5xl font-bold text-center">Donations</h1>
 
@@ -51,7 +38,7 @@ const Home = () => {
                         donations?.map(donation => <DonationCard key={donation.id} donation={donation}></DonationCard>)
                     }
                 </div>
-
+{/* 
 
 
 
@@ -62,11 +49,15 @@ const Home = () => {
                     }
                 </div>
 
+
+
                 <div className="grid grid-cols-1 md:grid-cols-3 px-5 lg:px-0 lg:grid-cols-4 gap-16 md:gap-5 lg:gap-8 my-10">
                     {
                         clothingData?.map(donation => <DonationCard key={donation.id} donation={donation}></DonationCard>)
                     }
                 </div>
+
+
 
                 <div className="grid grid-cols-1 md:grid-cols-3 px-5 lg:px-0 lg:grid-cols-4 gap-16 md:gap-5 lg:gap-8 my-10">
                     {
@@ -74,11 +65,17 @@ const Home = () => {
                     }
                 </div>
 
+
+
+
                 <div className="grid grid-cols-1 md:grid-cols-3 px-5 lg:px-0 lg:grid-cols-4 gap-16 md:gap-5 lg:gap-8 my-10">
                     {
                         educationData?.map(donation => <DonationCard key={donation.id} donation={donation}></DonationCard>)
                     }
                 </div>
+ */}
+
+
 
             </div>
         </div>
